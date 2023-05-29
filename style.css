@@ -1,0 +1,43 @@
+body{
+    background: rgb(64, 59, 209);
+ 
+}
+.clock{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+    border: 15px solid white;
+    display: grid;
+    margin-top: 12.5%;
+    position: relative;
+    rotate: 90deg;
+    
+}
+.sec{
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    width: 45%;
+    border: 2px solid black;
+    transform-origin: 100%;
+    
+}
+.min{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    height: 0px;
+    width: 40%;
+    border: 2px solid black;
+    transform-origin: 100%;
+}
+.hr{
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    height: 0px;
+    width: 30%;
+    border: 2px solid black;
+    transform-origin: 100%;
+}
